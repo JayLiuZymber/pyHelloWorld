@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 if True:
     print('Answer')
     print('True')
@@ -25,6 +25,8 @@ x="a"
 y="b"
 print(x)
 print(y)
+print(x, end="")
+print(y, end='')
 print(x,y)
 
 if x == 'a':
@@ -33,4 +35,27 @@ elif x == 'b':
     print('x=b')
 else:
     print('x!=a!=b')
+
+str='123456789'
+
+print()
+print(str)
+print(str[0:-1])
+print(str[0])
+print(str[2:5])
+print(str[2:])
+print(str[1:5:2])
+print(str *2)
+print(str +'你好')
+print('hello\nrunoob')
+print(r'hello\nrunoob')
+
+#input("\n\n按下任意鍵繼續")
+
+import sys; x='python'; sys.stdout.write(x + '\n')
+
+
+
+
+
 
